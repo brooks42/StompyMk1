@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/cbrooks/dev/kicad learning/shield_attempt.sch</source>
+    <date>Friday, November 04, 2016 'PMt' 10:14:51 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>shield_attempt.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="LFE1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D63B0</tstamp>
+    </comp>
+    <comp ref="LFS1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6409</tstamp>
+    </comp>
+    <comp ref="RFE1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6433</tstamp>
+    </comp>
+    <comp ref="RFS1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6477</tstamp>
+    </comp>
+    <comp ref="LBE1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D64A9</tstamp>
+    </comp>
+    <comp ref="LBS1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D64DB</tstamp>
+    </comp>
+    <comp ref="RBE1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6525</tstamp>
+    </comp>
+    <comp ref="RBS1">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D655D</tstamp>
+    </comp>
+    <comp ref="LFEIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6595</tstamp>
+    </comp>
+    <comp ref="LFSIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6816</tstamp>
+    </comp>
+    <comp ref="RFEIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D684C</tstamp>
+    </comp>
+    <comp ref="RFSIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6913</tstamp>
+    </comp>
+    <comp ref="LBEIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D695A</tstamp>
+    </comp>
+    <comp ref="LBSIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D69A6</tstamp>
+    </comp>
+    <comp ref="RBEIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6A1E</tstamp>
+    </comp>
+    <comp ref="RBSIN1">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D6A67</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(LFS1-Pad2)">
+      <node ref="LFSIN1" pin="1"/>
+      <node ref="LFS1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(RFE1-Pad2)">
+      <node ref="RFEIN1" pin="1"/>
+      <node ref="RFE1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(RFS1-Pad2)">
+      <node ref="RFS1" pin="2"/>
+      <node ref="RFSIN1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(LBE1-Pad2)">
+      <node ref="LBE1" pin="2"/>
+      <node ref="LBEIN1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(LBS1-Pad2)">
+      <node ref="LBSIN1" pin="1"/>
+      <node ref="LBS1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(RBE1-Pad2)">
+      <node ref="RBE1" pin="2"/>
+      <node ref="RBEIN1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(RBS1-Pad2)">
+      <node ref="RBS1" pin="2"/>
+      <node ref="RBSIN1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(LFE1-Pad2)">
+      <node ref="LFE1" pin="2"/>
+      <node ref="LFEIN1" pin="1"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="LFS1" pin="1"/>
+      <node ref="LFE1" pin="1"/>
+      <node ref="RFE1" pin="1"/>
+      <node ref="RFS1" pin="1"/>
+      <node ref="LBE1" pin="1"/>
+      <node ref="LBS1" pin="1"/>
+      <node ref="RBE1" pin="1"/>
+      <node ref="RBS1" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="RBS1" pin="3"/>
+      <node ref="RBE1" pin="3"/>
+      <node ref="LBS1" pin="3"/>
+      <node ref="LBE1" pin="3"/>
+      <node ref="RFS1" pin="3"/>
+      <node ref="RFE1" pin="3"/>
+      <node ref="LFS1" pin="3"/>
+      <node ref="LFE1" pin="3"/>
+    </net>
+  </nets>
+</export>
