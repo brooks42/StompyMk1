@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
 
   (general
     (links 24)
-    (no_connects 3)
+    (no_connects 2)
     (area 149.159999 80.579999 220.933334 118.810002)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 57)
     (zones 0)
     (modules 18)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -684,6 +684,11 @@
     )
   )
 
+  (gr_line (start 220.98 121.92) (end 146.05 121.92) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 146.05 121.92) (end 146.05 77.47) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 146.05 77.47) (end 220.98 77.47) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 220.98 77.47) (end 220.98 121.92) (angle 90) (layer Edge.Cuts) (width 0.15))
+
   (segment (start 179.07 90.3224) (end 179.07 111.76) (width 1) (layer F.Cu) (net 1))
   (segment (start 179.07 111.76) (end 179.07 118.11) (width 1) (layer F.Cu) (net 1))
   (segment (start 176.53 111.76) (end 179.07 111.76) (width 1) (layer F.Cu) (net 1))
@@ -742,4 +747,14 @@
   (segment (start 158.75 93.6324) (end 158.75 87.63) (width 0.5) (layer F.Cu) (net 10))
   (segment (start 158.75 95.25) (end 158.75 93.8824) (width 0.25) (layer F.Cu) (net 10))
 
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 582913C5) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 220.98 121.92) (xy 146.05 121.92) (xy 146.05 77.47) (xy 220.98 77.47)
+      )
+    )
+  )
 )

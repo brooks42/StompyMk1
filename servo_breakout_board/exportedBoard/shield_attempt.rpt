@@ -1,0 +1,378 @@
+## Footprint report - date Sun Nov 13 22:28:25 2016
+## Created by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 145.974999 77.394999
+lower_right_corner 221.055001 121.995001
+$EndBOARD
+
+$MODULE "ground1"
+reference "ground1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 215.900000 111.760000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  ground1
+
+$MODULE "LBE1"
+reference "LBE1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 201.930000 111.760000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LBE1
+
+$MODULE "LBEIN1"
+reference "LBEIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 204.470000 105.410000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LBEIN1
+
+$MODULE "LBS1"
+reference "LBS1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 186.690000 111.760000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LBS1
+
+$MODULE "LBSIN1"
+reference "LBSIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 189.230000 105.410000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LBSIN1
+
+$MODULE "LFE1"
+reference "LFE1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 171.450000 111.760000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LFE1
+
+$MODULE "LFEIN1"
+reference "LFEIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 173.990000 105.410000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LFEIN1
+
+$MODULE "LFS1"
+reference "LFS1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 156.210000 111.760000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LFS1
+
+$MODULE "LFSIN1"
+reference "LFSIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 158.750000 105.410000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LFSIN1
+
+$MODULE "RBE1"
+reference "RBE1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 201.930000 87.630000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RBE1
+
+$MODULE "RBEIN1"
+reference "RBEIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 204.470000 95.250000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RBEIN1
+
+$MODULE "RBS1"
+reference "RBS1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 186.690000 87.630000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RBS1
+
+$MODULE "RBSIN1"
+reference "RBSIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 189.230000 95.250000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RBSIN1
+
+$MODULE "RFE1"
+reference "RFE1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 171.450000 87.630000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RFE1
+
+$MODULE "RFEIN1"
+reference "RFEIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 173.990000 95.250000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RFEIN1
+
+$MODULE "RFS1"
+reference "RFS1"
+value "CONN_01X03"
+footprint "Pin_Headers:Pin_Header_Straight_1x03"
+attribut none
+position 156.210000 87.630000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  2.032000  1.727200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RFS1
+
+$MODULE "RFSIN1"
+reference "RFSIN1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 158.750000 95.250000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RFSIN1
+
+$MODULE "vcc1"
+reference "vcc1"
+value "CONN_01X01"
+footprint "Pin_Headers:Pin_Header_Straight_1x01"
+attribut none
+position 215.900000 87.630000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.235200  2.235200  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  vcc1
+
+$EndDESCRIPTION

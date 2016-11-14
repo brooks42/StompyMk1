@@ -4,14 +4,14 @@
 #include "ik.h"
 
 // servo pins (lfe = Left Front Elbow, rbs = Right Back Shoulder, etc)
-const int lfePin = 1;
-const int lfsPin = 2;
-const int lbePin = 3;
-const int lbsPin = 4;
-const int rfePin = 5;
-const int rfsPin = 6;
-const int rbePin = 7;
-const int rbsPin = 8;
+const int lfePin = 30;
+const int lfsPin = 31;
+const int lbePin = 32;
+const int lbsPin = 33;
+const int rfePin = 34;
+const int rfsPin = 35;
+const int rbePin = 36;
+const int rbsPin = 37;
 
 // all 8 servos...
 Servo lfe, lfs, lbe, lbs, rfe, rfs, rbe, rbs;
@@ -51,5 +51,8 @@ void initTest() {
 
 //
 void loop() {
-
+  // real quick this is just a simple test to make it walk forward
+  // doInput()
+  // makeServoDecisions()
+  // 
 }

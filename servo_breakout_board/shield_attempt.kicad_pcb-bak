@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
 
   (general
     (links 24)
-    (no_connects 3)
-    (area 150.135 81.555 220.933334 116.793333)
+    (no_connects 2)
+    (area 149.159999 80.579999 220.933334 118.810002)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 57)
     (zones 0)
     (modules 18)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory exportedBoard))
   )
 
   (net 0 "")
@@ -683,6 +683,11 @@
       (rotate (xyz 0 0 90))
     )
   )
+
+  (gr_line (start 146.05 121.92) (end 146.05 77.47) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 220.98 121.92) (end 146.05 121.92) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 220.98 77.47) (end 220.98 121.92) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 146.05 77.47) (end 220.98 77.47) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 179.07 90.3224) (end 179.07 111.76) (width 1) (layer F.Cu) (net 1))
   (segment (start 179.07 111.76) (end 179.07 118.11) (width 1) (layer F.Cu) (net 1))
