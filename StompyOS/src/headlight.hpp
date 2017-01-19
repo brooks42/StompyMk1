@@ -1,5 +1,8 @@
 #include <Arduino.h>
 
+#ifndef __HEADLIGHT__
+#define __HEADLIGHT__
+
 typedef struct {
     int redPin, bluePin, greenPin; // pins for the different colors of the LED
 } headlight_t;
@@ -49,3 +52,5 @@ public:
     isOn = true;
   };
 };
+
+#endif

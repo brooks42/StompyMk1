@@ -1,26 +1,29 @@
 
 #include <Arduino.h>
 #include <Servo.h>
-#include "headlight.h"
+#include "headlight.hpp"
 #include "ik.h"
 
 // servo pins (lfe = Left Front Elbow, rbs = Right Back Shoulder, etc)
-const int lfePin = 30;
-const int lfsPin = 31;
-const int lbePin = 32;
-const int lbsPin = 33;
-const int rfePin = 34;
-const int rfsPin = 35;
-const int rbePin = 36;
-const int rbsPin = 37;
+const int lfePin = 32;
+const int lfsPin = 33;
+
+const int lbePin = 30;
+const int lbsPin = 29;
+
+const int rfePin = 51;
+const int rfsPin = 50;
+
+const int rbePin = 42;
+const int rbsPin = 43;
 
 // headlight pins -- these are not the final values!
 const int lRed = 38;
 const int lBlue = 39;
 const int lGreen = 40;
-const int rRed = 41;
-const int rBlue = 42;
-const int rGreen = 43;
+const int rRed = 44;
+const int rBlue = 45;
+const int rGreen = 46;
 
 // all 8 servos...
 Servo lfe, lfs, lbe, lbs, rfe, rfs, rbe, rbs;
@@ -60,6 +63,28 @@ void initTest() {
   rbs.write(90);
 }
 
+void maxStretch() {
+  lfe.write(MAX_ELBOW_ROTATION);
+  lfs.write(MAX_SHOULDER_ROTATION);
+  lbe.write(MAX_ELBOW_ROTATION);
+  lbs.write(MAX_SHOULDER_ROTATION);
+  rfe.write(MAX_ELBOW_ROTATION);
+  rfs.write(MAX_SHOULDER_ROTATION);
+  rbe.write(MAX_ELBOW_ROTATION);
+  rbs.write(MAX_SHOULDER_ROTATION);
+}
+
+void minStretch() {
+  lfe.write(MIN_ELBOW_ROTATION);
+  lfs.write(MIN_SHOULDER_ROTATION);
+  lbe.write(MIN_ELBOW_ROTATION);
+  lbs.write(MIN_SHOULDER_ROTATION);
+  rfe.write(MIN_ELBOW_ROTATION);
+  rfs.write(MIN_SHOULDER_ROTATION);
+  rbe.write(MIN_ELBOW_ROTATION);
+  rbs.write(MIN_SHOULDER_ROTATION);
+}
+
 //
 void loop() {
   // the rough idea would be:
@@ -79,4 +104,12 @@ void loop() {
   } else {
     leftHeadlight.turnOn(HIGH, HIGH, HIGH);
   }
+
+  //delay(100);
+
+// test hardness methods
+  minStretch();
+  delay(1000);
+  maxStretch();
+  delay(1000);
 }
